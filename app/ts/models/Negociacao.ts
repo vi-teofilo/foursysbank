@@ -10,7 +10,7 @@
         //this = referencia ao Objeto 
         constructor(private _data: Date, 
             private _quantidade: number, 
-            private _valor:number){ }
+            private _valor: number){ }
 
         get data(){
             return this._data;
@@ -27,7 +27,7 @@
         get volume(){
             return this._quantidade * this._valor;
         }
-
+        
         
 
     }
