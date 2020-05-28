@@ -6,9 +6,9 @@ class NegociacaoController{
     // = new |já cria um a instancia 
     private _negociacoes = new Negociacoes();
     //passar informações usasse aspas simples
-    private _negociacoesView = new NegociacoesView('#negociacoesView');
+    private _negociacoesView = new Views.NegociacoesView('#negociacoesView');
     // Mensagem
-    private _mensagemView = new MensagemView('#mensagemView');
+    private _mensagemView = new Views.MensagemView('#mensagemView');
 
     constructor(){
         // a # declara o ID 
